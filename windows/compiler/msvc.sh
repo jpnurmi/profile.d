@@ -1,0 +1,1 @@
+load_windows_compiler msvc
