@@ -60,8 +60,9 @@ profile clang-20 e2e
 ```
 
 Sets `SENTRY_E2E_DSN` from `SENTRY_DSN_NATIVE`. The token comes from
-`SENTRY_E2E_AUTH_TOKEN`, or from `[e2e]` or `[auth]` `token` in
-`~/.sentryclirc`, with `event:read` and `project:read` scopes.
+`SENTRY_E2E_AUTH_TOKEN`, or from `sentry auth token` after `sentry auth login`
+([Sentry CLI](https://cli.sentry.dev/)), with `event:read` and `project:read`
+scopes.
 
 ## Windows
 
